@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,9 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        MainWindow.cpp
+        MainWindow.cpp \
+    CameraStream.cpp \
+    CameraImageProcessor.cpp \
+    ImgConverting.cpp
 
-HEADERS  += MainWindow.hpp
+HEADERS  += MainWindow.hpp \
+    CameraStream.hpp \
+    VideoEncoderInterface.hpp \
+    CameraImageProcessor.hpp \
+    ImgConverting.hpp
 
 FORMS    += MainWindow.ui
 
