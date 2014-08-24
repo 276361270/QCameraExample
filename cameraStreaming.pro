@@ -16,13 +16,15 @@ SOURCES += main.cpp\
         MainWindow.cpp \
     CameraStream.cpp \
     CameraImageProcessor.cpp \
-    ImgConverting.cpp
+    ImgConverting.cpp \
+    MyVideoWidget.cpp
 
 HEADERS  += MainWindow.hpp \
     CameraStream.hpp \
     VideoEncoderInterface.hpp \
     CameraImageProcessor.hpp \
-    ImgConverting.hpp
+    ImgConverting.hpp \
+    MyVideoWidget.hpp
 
 FORMS    += MainWindow.ui
 
